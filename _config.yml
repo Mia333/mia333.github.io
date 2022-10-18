@@ -55,6 +55,7 @@ header_pages:
 - markdowns/teaching.md
 - markdowns/people.md
 - markdowns/misc.md
+- markdowns/segmentation.md
 
 # Build settings
 theme: minima
