@@ -1,43 +1,64 @@
-title: Jiaojiao Ye
-author: Jiaojiao Ye
-email: jiaojiaoye@tum.de
-description: > # this means to ignore newlines until "twitter_username:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-# social links
-twitter_username: JiaojiaoYe
-github_username:  JiaojiaoYe1994
-rss: rss
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+title: Shangtong Zhang 
+google_analytics: UA-138892479-1
+author:
+  name: Shangtong Zhang 
+  email: shangtong.zhang.cs@gmail.com 
+description: 
+  # this means to ignore newlines until "show_excerpts:"
+  # line in _config.yml. It will appear in your document head meta (for
+  # Google search results) and in your feed.xml site description.
 
-
-# Mastodon instances
-# mastodon:
-# - username: jekyll
-#   instance: example.com
-# - username: jekyll2
-#   instance: example.com
-
-
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: yes # set to true to show excerpts on the homepage
 
 # Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-  
+
+  # generate social links in footer
+  social_links:
+    twitter: jekyllrb
+    github:  jekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-# - _posts/segmentation.md
+header_pages:
+- markdowns/publication.md
+- markdowns/teaching.md
+- markdowns/people.md
+- markdowns/misc.md
 
-markdown: kramdown
+# Build settings
 theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
