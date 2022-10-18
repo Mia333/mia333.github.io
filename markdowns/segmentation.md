@@ -2,6 +2,7 @@
 layout: info
 title: Segmentation
 permalink: /segmentation/
+use_math: true
 ---
 
 In this blog, I will a brief introduction to Image segmentation with Deep Learning.
