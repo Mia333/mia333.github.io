@@ -1,8 +1,8 @@
-title: Shangtong Zhang 
+title: Jiaojiao Ye 
 google_analytics: UA-138892479-1
 author:
-  name: Shangtong Zhang 
-  email: shangtong.zhang.cs@gmail.com 
+  name: Jiaojiao Ye 
+  email: jiaojiaoye@tum.de 
 description: 
   # this means to ignore newlines until "show_excerpts:"
   # line in _config.yml. It will appear in your document head meta (for
@@ -17,8 +17,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: jiaojiaoye
+    github:  jiaojiaoye
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
