@@ -1,6 +1,6 @@
 ---
 layout: info
-title: Cvae4hri
+title: Conditional VAE for Human-Robot Interaction
 permalink: /cvae4hri/
 ---
 
@@ -29,7 +29,7 @@ Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a g
 $$ -->
 where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able to model multiple modes in conditional distribution of the output $\mathbf{y}$.
 
-<p>
+<!-- <p>
 	<div class="row uniform">
 	    <div class="1u"></div>
 	    <div class="10u 12u$(small)">
@@ -40,8 +40,8 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
   <tr>
     <td colspan="3" style="text-align:center"><i>Figure 1. The proposed model.</i>
 </td>
-</p>
-
+</p> -->
+<img src="/assets/cvae4hri/lstm-cvae_framework.png">
 
 
 ###  Data augmentation for sequential data using MIXUP
