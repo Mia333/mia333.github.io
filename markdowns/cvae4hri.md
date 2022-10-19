@@ -17,9 +17,8 @@ Condition on a human motion, how could a robot react? We human has diverse react
 
 ## Methodology
 
-* LSTM-based CVAE as a motion planner
+1. LSTM-based CVAE as a motion planner
 
-whatever here ... 
 
 $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
 
