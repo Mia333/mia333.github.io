@@ -19,7 +19,7 @@ Condition on a human motion, how could a robot react? We human has diverse react
 
 * LSTM-based CVAE as a motion planner
 
-We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian $\ddot{\hat{\mathbf{s}}}_r$  space $\mathbf{s}_{r}^{1:M}$​  and the positions of the human hand \$\mathbf{s}_{h}^{1:M}$​ with $M$ time steps. The test data is generated online.
+We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$​  and the positions of the human hand \$\mathbf{s}_{h}^{1:M}$​ with $M$ time steps. The test data is generated online.
 
 To implement an LSTM-based CVAE for HRI, the input of the model is  $\mathbf{x} = [\mathbf{x}_{h}^{1:t}, \mathbf{x}_{r}^{1:t}]$​​​​​​​ and the output is the control signal $\mathbf{y} = \ddot{\mathbf{s}}_r^{t+1:t+T}$​, where $t \in [2 {.}\,{.}\nobreak M-T]$. $\mathbf{x}^t_h$ and $\mathbf{x}^t_r$​​​, consisting of the position, velocity, and acceleration, are the state of human and robot past trajectory from time step one to the current time step $t$​​​​​​​​ (see the notation in Fig. 1). The long output of the model from time step $t$ to $T$ is only used in the training and validation processes, resulting in more accurate predictions. However, we only use $\ddot{s}_r^{t+1}$ for testing.
 
