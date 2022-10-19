@@ -2,6 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']],
+        displayMath: [ ['$$', '$$'] ],
+        }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
   <body>
 
@@ -9,6 +19,7 @@
     {% if page.use_math %}
     {% include _mathjax_support.html %}
     {% endif %}
+    
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
