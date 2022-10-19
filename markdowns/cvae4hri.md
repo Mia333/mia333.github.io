@@ -41,7 +41,7 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
     <td colspan="3" style="text-align:center"><i>Figure 1. The proposed model.</i>
 </td>
 </p> -->
-<!-- <img src="/assets/cvae4hri/lstm-cvae_framework.png"> -->
+<img src="/assets/cvae4hri/lstm-cvae_framework.png">
 
 
 *  Data augmentation for sequential data using MIXUP
