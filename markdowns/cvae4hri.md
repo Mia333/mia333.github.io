@@ -41,7 +41,7 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
     <td colspan="3" style="text-align:center"><i>Figure 1. The proposed model.</i>
 </td>
 </p> -->
-<img src="/assets/cvae4hri/lstm-cvae_framework.png">
+<!-- <img src="/assets/cvae4hri/lstm-cvae_framework.png"> -->
 
 
 ###  Data augmentation for sequential data using MIXUP
@@ -49,7 +49,7 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
 Demonstration collection on a real robot is inefficient and time-consuming. Therefore, we use mixup [[2]](#2) for data augmentation. In the original mixup method, discrete datapoints are augmented. Given demonstration $a$ and $b$, we adapt this technique to our specific sequential interaction dataset for both human and robot trajectories, $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$, where $\lambda$ is randomly sampled. 
 
 
-### Best of many samples
+* Best of many samples
 
 $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
 
@@ -68,7 +68,7 @@ $$
 $$
 
 
-### Stable prediction
+* Stable prediction
 
 The model probably fails in motion planning due to long-term dynamics and interaction in the physical environment. We introduce a $\mathcal{L}_{Traj}$​ to regularise the velocity and position,
 $$
