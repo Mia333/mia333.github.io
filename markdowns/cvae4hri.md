@@ -31,7 +31,7 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
 	<div class="row uniform">
 	    <div class="1u"></div>
 	    <div class="10u 12u$(small)">
-	        <img src="./imgs/cvae4hri/lstm-cvae_framework.png" class="image fit">
+	        <img src="/assets/cvae4hri/lstm-cvae_framework.png" class="image fit">
 	    </div>
 	    <div class="1u$"></div>
 	</div>
@@ -101,13 +101,13 @@ We illustrate our approach on a Franka Emika Panda robot arm interacting with hu
 <table cellpadding="1000" cellspacing="100">
   <tr>
   <tr>
-    <th colspan="2" style="text-align:center"><img src="./imgs/cvae4hri/mia_panda.gif" width=50% alt = "name1"></th>
+    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/mia_panda.gif" width=50% alt = "name1"></th>
   </tr>
   <tr>
-    <th colspan="2" style="text-align:center"><img src="./imgs/cvae4hri/q_m2_185001.gif" width=50% alt = "name1"></th>
+    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/q_m2_185001.gif" width=50% alt = "name1"></th>
   </tr>
   <tr>
-    <th colspan="2" style="text-align:center"><img src="./imgs/cvae4hri/q_out_191046.gif" width=50% alt = "name1"></th>
+    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/q_out_191046.gif" width=50% alt = "name1"></th>
   </tr>
   <tr>
     <td colspan="2" style="text-align:left"><i>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</i>
