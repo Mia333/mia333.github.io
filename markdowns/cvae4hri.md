@@ -22,9 +22,9 @@ Condition on a human motion, how could a robot react? We human has diverse react
 <!-- We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$ and the positions of the human hand $\mathbf{s}_{h}^{1:M}$ with $M$ time steps. The test data is generated online. -->
 
 Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a generation model $p_\theta(\mathbf{y} | \mathbf{z}, \mathbf{x})$​, and a conditional prior model $p(\mathbf{z}|\mathbf{x})$, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3):
-$$
+<!-- $$
 \begin{align*}    \mathcal{L}_{CVAE} & \simeq \frac{1}{N} \sum_{i=1}^{N} \log \big( p_{\theta}(\mathbf{y} \mid \hat{\mathbf{z}_{i}}, \mathbf{x})\big) - D_{KL}\big(q_{\phi}(\mathbf{z} \mid \mathbf{x}, \mathbf{y} )\lVert p_{\theta}(\mathbf{z} \mid \mathbf{x})\big), \\    & \hat{\mathbf{z}}_i \sim q_{\phi}(\mathbf{z} \mid \mathbf{x}, \mathbf{y})     \end{align*}
-$$
+$$ -->
 where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able to model multiple modes in conditional distribution of the output $\mathbf{y}$.
 
 <p>
@@ -98,7 +98,7 @@ where $\beta$​​ and $\lambda$​​ are hyperparameters.
 
 We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1\,ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
 
-<table cellpadding="1000" cellspacing="100">
+<!-- <table cellpadding="1000" cellspacing="100">
   <tr>
   <tr>
     <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/mia_panda.gif" width=50% alt = "name1"></th>
@@ -114,7 +114,7 @@ We illustrate our approach on a Franka Emika Panda robot arm interacting with hu
 </td>
   </tr>
   <tr>
-</table>
+</table> -->
 
 
 
