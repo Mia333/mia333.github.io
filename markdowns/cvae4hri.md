@@ -17,7 +17,7 @@ Condition on a human motion, how could a robot react? We human has diverse react
 
 ## Methodology
 
-* LSTM-based CVAE as a motion planner
+### LSTM-based CVAE as a motion planner
 
 <!-- We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$ and the positions of the human hand $\mathbf{s}_{h}^{1:M}$ with $M$ time steps. The test data is generated online. -->
 
@@ -42,12 +42,12 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
 
 
 
-*  Data augmentation for sequential data using MIXUP
+###  Data augmentation for sequential data using MIXUP
 
 Demonstration collection on a real robot is inefficient and time-consuming. Therefore, we use mixup [[2]](#2) for data augmentation. In the original mixup method, discrete datapoints are augmented. Given demonstration $a$ and $b$, we adapt this technique to our specific sequential interaction dataset for both human and robot trajectories, $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$, where $\lambda$ is randomly sampled. 
 
 
-* Best of many samples
+### Best of many samples
 
 $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
 
@@ -66,7 +66,7 @@ $$
 $$
 
 
-* Stable prediction
+### Stable prediction
 
 The model probably fails in motion planning due to long-term dynamics and interaction in the physical environment. We introduce a $\mathcal{L}_{Traj}$​ to regularise the velocity and position,
 $$
