@@ -17,10 +17,7 @@ Condition on a human motion, how could a robot react? We human has diverse react
 
 ## Methodology
 
-1. LSTM-based CVAE as a motion planner
-
-
-$\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
+* LSTM-based CVAE as a motion planner
 
 We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$ and the positions of the human hand $\mathbf{s}_{h}^{1:M}$ with $M$ time steps. The test data is generated online.
 
@@ -51,6 +48,8 @@ Demonstration collection on a real robot is inefficient and time-consuming. Ther
 
 
 * Best of many samples
+
+$\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
 
 To encourage the diversity of the generator, we employ the best of many samples [[4]](#4 ). It estimates the log-likelihood over the full distribution, instead of Monto-Carlo sampling,
 $$
