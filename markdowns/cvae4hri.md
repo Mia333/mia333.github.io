@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Conditional VAE for Human-Robot Interaction
-permalink: /cvae4hri/
+permalink: /publication/cvae4hri/
 ---
 
 author: Jiaojiao Ye
@@ -133,6 +133,3 @@ This work was completed by Jiaojiao Ye as the master thesis in 2019-2020. [The t
 
 <a id="4">[4]</a> Apratim Bhattacharyya, Bernt Schiele, and Mario Fritz. Accurate and Diverse Sampling of Sequences based on a “Best of Many” Sample Objective. IEEE Conference on Computer Vision and Pattern Recognition (2018).
 
-
-
-👉[Jiaojiao Ye web](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/)
