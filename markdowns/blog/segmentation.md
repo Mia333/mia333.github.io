@@ -1,20 +1,8 @@
-```html
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-```
-
-# Segmentation
-
-
+---
+layout: info
+title: Segmentation
+permalink: /segmentation/
+---
 
 In this blog, I will a brief introduction to Image segmentation with Deep Learning.
 
@@ -135,6 +123,3 @@ Other than previous two criterion, there are several other metrics for evaluatin
 
   $$iIoU=iTP/(iTP+FP+iFN)$$
 
-
-
-👉[Jiaojiao Ye web](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/)
