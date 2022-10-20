@@ -8,6 +8,24 @@
 layout: home
 ---
 
+<table class="personal-info">
+    <tbody>
+        <tr>
+        <td>
+            <img src="/assets/img/profil.jpg"> 
+        </td>
+        <td>
+            <p>
+                Senior researcher<br>
+                <a href="https://en.zhejianglab.com/institutescenters/#ResearchUnits">Research Center for Intelligent Computing Software </a> <br>
+                <a href="https://en.zhejianglab.com/">Zhejiang Lab </a> <br>
+                <br>
+                <b>Email</b>: <a href="mailto:jiaojiao.ye@tum.de">jiaojiao.ye@tum.de </a> <br>
+            </p>
+        </td>
+        </tr>
+    </tbody>
+</table>
 
 I am currently an senior AI researcher in Intelligent Computing research center at state key Lab [Zhejiang Lab](https://en.zhejianglab.com/), focusing on Reinforcement Learning and AutoML.
 
