@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Segmentation
-permalink: /segmentation/
+permalink: /blog/segmentation/
 ---
 
 In this blog, I will a brief introduction to Image segmentation with Deep Learning.
