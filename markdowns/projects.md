@@ -8,11 +8,11 @@ permalink: /projects/
 
 Deep Learning for robot motion planning in human-robot interaction (HRI). We propose a real-time probabilistic model using LSTM-based conditional variational autoencoder (CVAE) for structured robot control policy learning and inference. 
 
-Supervisor: [Prof. Dr. Patrick van der Smagt](https://argmax.ai/team/patrick-van-der-smagt/), [Prof. Dr.-Ing. Sami Haddadin](https://en.wikipedia.org/wiki/Sami_Haddadin)
+**Supervisor**: [Prof. Dr. Patrick van der Smagt](https://argmax.ai/team/patrick-van-der-smagt/), [Prof. Dr.-Ing. Sami Haddadin](https://en.wikipedia.org/wiki/Sami_Haddadin)
 
 **Keynotes**: Variational AutoEncoder, BiLSTM, Human-Robot Interaction, Learning from Demonstration
 
-[blog](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/posts/paper/cvae4hri)[paper](https://github.com/JiaojiaoYe1994/jiaojiaoye.github.com/blob/master/posts/paper/Sequence_model_for_hri.pdf)
+[blog](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/posts/paper/cvae4hri), [paper](https://github.com/JiaojiaoYe1994/jiaojiaoye.github.com/blob/master/posts/paper/Sequence_model_for_hri.pdf)
 
 ![](/assets/imgs/mia_panda.gif ){:height="50%" width="50%" align="center"}
 <!-- <img src="/assets/imgs/lstm-cvae_framework.png"> -->
@@ -21,7 +21,7 @@ Supervisor: [Prof. Dr. Patrick van der Smagt](https://argmax.ai/team/patrick-van
 
 Apply Deep Reinforcement Learning (DDPG specifically) to control [Torcs](https://sourceforge.net/projects/torcs/) (a car racing game) agent's movement. At each time step, car can move by steering, accelerating and braking. 
 
-[video](https://youtu.be/B1JdUByUQEw) | [torchs img](https://drive.google.com/uc?id=1DaJIMTrMArL7ODlry6aDYG2w3XFr3_UC&export=download)
+[video](https://youtu.be/B1JdUByUQEw), [torchs img](https://drive.google.com/uc?id=1DaJIMTrMArL7ODlry6aDYG2w3XFr3_UC&export=download)
 
 ![](/assets/imgs/torcs.gif ){:height="50%" width="50%" align="center"}
 
@@ -29,13 +29,14 @@ Apply Deep Reinforcement Learning (DDPG specifically) to control [Torcs](https:/
 
 Vision-based Poppy Humanoid robot reaching Movement Learning with Deep Deterministic Policy Gradient(DDPG).
 
-[project](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/posts/motion_learning_with_rl) | [video](https://youtu.be/oOG4bsWDT0M) | [github](https://github.com/JiaojiaoYe1994/Robot-Motion-Learning-with-Reinforcement-Learning)
+[project](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/posts/motion_learning_with_rl), [video](https://youtu.be/oOG4bsWDT0M), [github](https://github.com/JiaojiaoYe1994/Robot-Motion-Learning-with-Reinforcement-Learning)
 
 ![](/assets/imgs/poppy.gif ){:height="50%" width="50%" align="center"}
 
 * **Face segmentation**
 
 Real-time human face segmentation based on webcam through lightweight LinkNet34 DL models.
+
 [github](https://github.com/Oneflow-Inc/oneflow_vision_model/tree/main/face_seg)
 
 ![](/assets/imgs/faceseg_demo.gif ){:height="50%" width="50%" align="center"}
