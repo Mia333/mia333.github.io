@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Image-to-Image translation
-permalink: /img_translation_paper/
+permalink: /blog/img_translation_paper/
 ---
 
 
