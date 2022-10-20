@@ -52,11 +52,11 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
 - markdowns/publication.md
-- markdowns/teaching.md
-- markdowns/people.md
+- markdowns/awards.md
+- markdowns/projects.md
 - markdowns/misc.md
-- markdowns/segmentation.md
-- markdowns/cvae4hri.md
+# - markdowns/segmentation.md
+# - markdowns/cvae4hri.md
 
 # Build settings
 theme: minima
