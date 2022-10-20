@@ -1,4 +1,8 @@
-## Image-to-Image translation
+---
+layout: info
+title: Image-to-Image translation
+permalink: /img_translation_paper/
+---
 
 
 In this blog, I summarize some recent papers from CVPR. ECCV related to topic image translation, Domain adaption. The content is based on my personal understanding, so for sure there maybe some misunderstanding or mistakes. Any feedbacks are welcome.
@@ -84,9 +88,9 @@ style: rendering of the structure
  - Multimodal, continues style space
  - unsupervised learning
  - example-guided translation is possible.
- - disentangled representation of content and style???
+ - disentangled representation of content and style
 
-
+<!-- 
 ### Unsupervised Image-to-Image Translation 
 [paper](https://arxiv.org/pdf/1703.00848.pdf) | [GitHub](https://github.com/mingyuliutw/UNIT)
 
@@ -101,8 +105,4 @@ This paper is the collabrative work from Adobe and University of Berkely,
 Bicycle
 
 NIPs 2017
-
-
-
-
-👉[Jiaojiao Ye web](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/)
+ -->
