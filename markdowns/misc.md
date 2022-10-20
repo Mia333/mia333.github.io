@@ -5,17 +5,29 @@ permalink: /misc/
 ---
 
 ### Code
-- [Reinforcement Learning: An Introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) ![(8k stars)](https://img.shields.io/github/stars/shangtongzhang/reinforcement-learning-an-introduction.svg?style=social)  
-This repo is a python implementation of the textbook from Sutton & Barto.
-- [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) ![(1k stars)](https://img.shields.io/github/stars/shangtongzhang/deeprl.svg?style=social)  
-This repo includes almost all codes of my papers during my DPhil.
+<!-- - [Reinforcement Learning: An Introduction](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) ![(8k stars)](https://img.shields.io/github/stars/shangtongzhang/reinforcement-learning-an-introduction.svg?style=social)  
+This repo is a python implementation of the textbook from Sutton & Barto. -->
+- **CS231n's Assignments** 
+I've worked through Stanford's Convolutional Neural Networks for Visual Recognition course [cs231n](http://cs231n.stanford.edu), which is a wonderful lecture for diving into Deep Learning. [Here](https://github.com/JiaojiaoYe1994/cs231_assignment_solution1718) find out my solution for assignments.
+
 
 
 ### Blog
-- [Tips for inquiry](/blog/inquiry)
-- [Tips for LaTeX](/blog/latex)
-- [Tips for writing (a paper)](/blog/writing)
+* **Image translation papers**
+
+In this [blog](/blog/img_translation_paper), I summarize some recent papers from CVPR. ECCV related to topic image translation.
+
+
+* **Sequence model**
+
+In this [blog](/blog/CVAE_sequence_model_papers), I summarize some papers related to topic Conditional VAE and Human-Robot Interaction,.
+
+* **Segmentation**
+
+In this [blog](/blog/segmentation), I show a brief introduction of image segmentation and summarize some awesome work of this direction. 
+
+
 
 ### Hobby
-- Sports: [alpine skiing](/hobby/ski), swimming, [marathon](/hobby/marathon), table tennis
-- Video games: [Monster Hunter](/hobby/monster-hunter), Zelda, [Mario Kart](/hobby/mario-kart), Resident Evil, [Tetris 99](/hobby/tetris), Civilization, Overwatch, Hearthstone, DoTA, War III, PopKart ...
+- [dance](/hobby/ski)
+- [painting](/hobby/painting)
