@@ -1,4 +1,9 @@
-# Paper for sequence model
+---
+layout: info
+title: Sequence model
+permalink: /publication/sequence_model/
+---
+
 
 In this blog, I summarize some Paper, focused on topics, Conditional VAE and Probabilistic Movement Primitives, Human-Robot Interaction.
 
