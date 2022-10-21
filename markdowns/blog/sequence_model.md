@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Sequence model
-permalink: /publication/sequence_model/
+permalink: /blog/sequence_model/
 ---
 
 
