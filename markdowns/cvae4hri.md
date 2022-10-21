@@ -103,23 +103,6 @@ We illustrate our approach on a Franka Emika Panda robot arm interacting with hu
 ![](/assets/cvae4hri/q_m2_185001.gif ){:height="50%" width="50%" align="center"}
 ![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"}
 <em>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</em>
-<!-- <table cellpadding="1000" cellspacing="100">
-  <tr>
-  <tr>
-    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/mia_panda.gif" width=50% alt = "name1"></th>
-  </tr>
-  <tr>
-    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/q_m2_185001.gif" width=50% alt = "name1"></th>
-  </tr>
-  <tr>
-    <th colspan="2" style="text-align:center"><img src="/assets/cvae4hri/q_out_191046.gif" width=50% alt = "name1"></th>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align:left"><i>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</i>
-</td>
-  </tr>
-  <tr>
-</table> -->
 
 
 
