@@ -51,9 +51,9 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
+- markdowns/projects.md
 - markdowns/publication.md
 - markdowns/awards.md
-- markdowns/projects.md
 - markdowns/misc.md
 # - markdowns/segmentation.md
 # - markdowns/cvae4hri.md
