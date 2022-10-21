@@ -42,7 +42,7 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
 </td>
 </p> -->
 <img src="/assets/cvae4hri/lstm-cvae_framework.png">
-
+<em>Figure 1. The proposed model.</em>
 
 *  Data augmentation for sequential data using MIXUP
 
@@ -99,6 +99,10 @@ where $\beta$​​ and $\lambda$​​ are hyperparameters.
 
 We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1\,ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
 
+![](/assets/cvae4hri/mia_panda.gif ){:height="50%" width="50%" align="center"}
+![](/assets/cvae4hri/q_m2_185001.gif ){:height="50%" width="50%" align="center"}
+![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"}
+<em>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</em>
 <!-- <table cellpadding="1000" cellspacing="100">
   <tr>
   <tr>
