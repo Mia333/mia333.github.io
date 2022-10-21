@@ -20,7 +20,7 @@ In this [blog](/blog/img_translation_paper), I summarize some recent papers from
 
 * **Sequence model**
 
-In this [blog](/blog/CVAE_sequence_model_papers), I summarize some papers related to topic Conditional VAE and Human-Robot Interaction,.
+In this [blog](/blog/sequence_model), I summarize some papers related to topic Conditional VAE and Human-Robot Interaction,.
 
 * **Segmentation**
 
@@ -29,5 +29,5 @@ In this [blog](/blog/segmentation), I show a brief introduction of image segment
 
 
 ### Hobby
-- [dance](/hobby/ski)
+- [dance](/hobby/dance)
 - [painting](/hobby/painting)
