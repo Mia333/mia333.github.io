@@ -8,11 +8,11 @@ permalink: /hobby/painting/
 
 Reproduction, Water Lilies by Claude Monet, 1907
 
-<img src='/assets/imgs/waterlilies_monet.JPG'>
+<img src='/assets/imgs/waterlilies_monet.jpg'>
 
 Sunflower, 2020.08 at ZhejiangLab
 
-<img src='/assets/imgs/sunflower.JPG'>
+<img src='/assets/imgs/sunflower.jpg'>
 
 Audrey Hepburn, 2019.12 at Munich Studentenstadt
 
