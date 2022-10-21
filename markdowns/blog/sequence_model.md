@@ -10,7 +10,7 @@ In this blog, I summarize some Paper, focused on topics, Conditional VAE and Pro
 
 # 1. Accurate and Diverse Sampling of Sequences based on a "Best of Many" Sample Objects
 
-[paper](https://arxiv.org/abs/1806.07772) | [github](https://github.com/apratimbhattacharyya18/CGM_BestOfMany)
+[[paper]](https://arxiv.org/abs/1806.07772) [[github]](https://github.com/apratimbhattacharyya18/CGM_BestOfMany)
 
  2018 CVPR paper from Corporation of Max Planck Institute for Informatics and Saarland Informatics Campus. This paper applies the CVAE combined with LSTM in trajectory prediction and with Conv-LSTM in image sequence prediction problem.
 
@@ -22,12 +22,12 @@ Accurate and Diverse Sampling of Sequences based on a "Best of Many" Sample Obje
 
 x_data (60000,10,2)  y_data(60000,107,2)
 
-<img src='/assets/imgs/sequence_model/MNIST.png' width='440'/>
+<img src='/assets/imgs/MNIST.png' width='440'/>
 
 
 
 
-<img src='/assets/imgs/sequence_model/MNIST2.png' width='440'/>
+<img src='/assets/imgs/MNIST2.png' width='440'/>
 
 
 
@@ -35,7 +35,7 @@ x_data (60000,10,2)  y_data(60000,107,2)
 
 empirical lower bound using Monte-Carlo Sampling
 
-<img src='/assets/imgs/sequence_model/CVAE_MC.png' width='440'/>
+<img src='/assets/imgs/CVAE_MC.png' width='440'/>
 
 
 
@@ -45,7 +45,7 @@ empirical lower bound using Monte-Carlo Sampling
 
 encourages the diversity in the generated samples, since has multiple chances to draw samples. has numerical stability issue. 
 
-<img src='/assets/imgs/sequence_model/MS.png' width='440'/>
+<img src='/assets/imgs/MS.png' width='440'/>
 
 
 
@@ -53,13 +53,13 @@ encourages the diversity in the generated samples, since has multiple chances to
 
   approximate the sum with maximum 
 
-<img src='/assets/imgs/sequence_model/BSM.png' width='440'/>
+<img src='/assets/imgs/BSM.png' width='440'/>
 
 
 
 * **Model architecture** for structured trajectory prediction
 
-<img src='/assets/imgs/sequence_model/model_architecture.png' width='440'/>
+<img src='/assets/imgs/model_architecture.png' width='440'/>
 
 
 
@@ -68,7 +68,7 @@ encourages the diversity in the generated samples, since has multiple chances to
 
 fix initial stroke length at 10, generate diverse samples from LSTM-BMS model. clustered using k-means
 
-<img src='/assets/imgs/sequence_model/BMS_result.png' width='640'/>
+<img src='/assets/imgs/BMS_result.png' width='640'/>
 
 # 2. Learning and Inferring Movement with Deep Generative Model
 
@@ -121,8 +121,8 @@ The probability of observing a trajectory yao given weight vector w is given as 
 
 
 # 3. Multimodal Probabilistic Model-Based Planning for Human-Robot Interaction
-[paper](https://arxiv.org/abs/1710.09483)
-[github](https://github.com/StanfordASL/TrafficWeavingCVAE)
+[[paper]](https://arxiv.org/abs/1710.09483)
+[[github]](https://github.com/StanfordASL/TrafficWeavingCVAE)
 
 Recurrent CVAE
 
@@ -136,7 +136,7 @@ learn human action policy conditioned on interaction history and a candidate rob
 
 # 4. Multimodal Probabilistic Model-Based Planning for Human-Robot Interaction
 
-[paper](https://arxiv.org/abs/1710.09483) | [Github](https://github.com/StanfordASL/TrafficWeavingCVAE) | [Video](https://www.youtube.com/watch?v=R5ByqhDer8I)
+[[paper]](https://arxiv.org/abs/1710.09483) | [[Github]](https://github.com/StanfordASL/TrafficWeavingCVAE) | [[Video]](https://www.youtube.com/watch?v=R5ByqhDer8I)
 
 
 
