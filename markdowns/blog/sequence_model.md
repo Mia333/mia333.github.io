@@ -22,15 +22,12 @@ Accurate and Diverse Sampling of Sequences based on a "Best of Many" Sample Obje
 
 x_data (60000,10,2)  y_data(60000,107,2)
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/MNIST.png' width='440'/>
-<p/>
+<img src='/assets/imgs/sequence_model/MNIST.png' width='440'/>
 
 
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/MNIST2.png' width='440'/>
-<p/>
+
+<img src='/assets/imgs/sequence_model/MNIST2.png' width='440'/>
 
 
 
@@ -38,9 +35,7 @@ x_data (60000,10,2)  y_data(60000,107,2)
 
 empirical lower bound using Monte-Carlo Sampling
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/CVAE_MC.png' width='440'/>
-<p/>
+<img src='/assets/imgs/sequence_model/CVAE_MC.png' width='440'/>
 
 
 
@@ -50,9 +45,7 @@ empirical lower bound using Monte-Carlo Sampling
 
 encourages the diversity in the generated samples, since has multiple chances to draw samples. has numerical stability issue. 
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/MS.png' width='440'/>
-<p/>
+<img src='/assets/imgs/sequence_model/MS.png' width='440'/>
 
 
 
@@ -60,17 +53,13 @@ encourages the diversity in the generated samples, since has multiple chances to
 
   approximate the sum with maximum 
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/BSM.png' width='440'/>
-<p/>
+<img src='/assets/imgs/sequence_model/BSM.png' width='440'/>
 
 
 
 * **Model architecture** for structured trajectory prediction
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/model_architecture.png' width='440'/>
-<p/>
+<img src='/assets/imgs/sequence_model/model_architecture.png' width='440'/>
 
 
 
@@ -79,9 +68,7 @@ encourages the diversity in the generated samples, since has multiple chances to
 
 fix initial stroke length at 10, generate diverse samples from LSTM-BMS model. clustered using k-means
 
-<p align='center'>    
-	<img src='/assets/imgs/sequence_model/BMS_result.png' width='640'/>
-<p/>
+<img src='/assets/imgs/sequence_model/BMS_result.png' width='640'/>
 
 # 2. Learning and Inferring Movement with Deep Generative Model
 
