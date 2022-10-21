@@ -1,4 +1,8 @@
-# Painting 🎨
+---
+layout: info
+title: Painting 🎨
+permalink: /hobby/painting/
+---
 
 
 
