@@ -1,6 +1,8 @@
- Dance 💃
-=============================================================
-
+---
+layout: info
+title: Dance
+permalink: /hobby/dance/
+---
 
 
 ### Bio
@@ -40,7 +42,3 @@ I am founder and chair of Dance Community in Zhejiang Lab. I have danced for aro
 [2019 Crew chreo, at Munich Odeonsplatz](https://www.bilibili.com/video/BV1m4411Z7rs?spm_id_from=333.999.0.0)
 
 [2019 Chreo, at Munich Studentenstadt - Worth it](https://www.bilibili.com/video/BV1dJ411h7gM?spm_id_from=333.999.0.0)
-
-
-
-👉[Jiaojiao Ye web](https://jiaojiaoye1994.github.io/jiaojiaoye.github.com/)
