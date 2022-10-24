@@ -21,15 +21,15 @@ layout: home
                 <a href="https://en.zhejianglab.com/">Zhejiang Lab </a> <br>
                 <br>
                 <b>Email</b>: <a href="mailto:jiaojiao.ye@tum.de">jiaojiao.ye@tum.de </a> <br>
-                [[GitHub]](https://github.com/JiaojiaoYe1994) [[Linkedin]](https://www.linkedin.com/in/jiaojiao-ye-99830b14a/) [[Profile]](https://argmax.ai/team/jiaojiao-ye/) <br>
+                <a href="https://github.com/JiaojiaoYe1994">[GitHub] </a>  <a href="https://www.linkedin.com/in/jiaojiao-ye-99830b14a/">[Linkedin] </a>  <a href="https://argmax.ai/team/jiaojiao-ye/">[Profile] </a>  <br>
             </p>
         </td>
         </tr>
     </tbody>
 </table>
 
-
-
+<!-- [[GitHub]](https://github.com/JiaojiaoYe1994) [[Linkedin]](https://www.linkedin.com/in/jiaojiao-ye-99830b14a/) [[Profile]](https://argmax.ai/team/jiaojiao-ye/) <br>
+ -->
 I am currently a senior AI researcher in Intelligent Computing research center at state key Lab [Zhejiang Lab](https://en.zhejianglab.com/), focusing on Reinforcement Learning and AutoML.
 
 I obtained master in Electronic and Information Technology at [Technical University of Munich](https://www.tum.de/en/), Bachelor in [Automation](http://cse.zju.edu.cn/english/) at Zhejiang University. During my undergraduate, I was fortunate to conduct thesis research under supervision of [Prof. Dibo Hou](https://person.zju.edu.cn/en/houdb), [Prof. Dr. Patrick van der Smagt](https://scholar.google.de/citations?user=5ybzvbsAAAAJ&hl=en), [Prof. Sami Haddadin](https://www.mirmi.tum.de/en/rsi/team/haddadin-sami/), [Dr. Alexandros Paraschos](https://scholar.google.com/citations?user=aCz_QHUAAAAJ), and [Dr. Nutan Chen](https://argmax.ai/team/nutan-chen/).
