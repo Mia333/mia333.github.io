@@ -8,13 +8,11 @@ permalink: /publication/test/
 
 * LSTM-based CVAE as a motion planner
 
-We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$, and the positions of the human hand $\mathbf{s}_{h}^{1:M}$, with $M$ time steps. The test data is generated online.
-
- <img src="/assets/cvae4hri/eq_input.png" class="inline"/> 
+We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space <img src="/assets/cvae4hri/pos_robot.png" class="inline"/>, and the positions of the human hand <img src="/assets/cvae4hri/pos_human.png" class="inline"/>, with $M$ time steps. The test data is generated online.
 
 To implement an LSTM-based CVAE for HRI, the input of the model is <img src="/assets/cvae4hri/eq_input.png" class="inline"/> and the output is the control signal $\mathbf{y} = \ddot{\mathbf{s}}_r^{t+1:t+T}$​, where $t \in [2 \dots M-T]$. $\mathbf{x}^t_h$ and $\mathbf{x}^t_r$​​​, consisting of the position, velocity, and acceleration, are the state of human and robot past trajectory from time step one to the current time step $t$​​​​​​​​ (see the notation in Fig. 1). The long output of the model from time step $t$ to $T$ is only used in the training and validation processes, resulting in more accurate predictions. However, we only use $\ddot{s}_r^{t+1}$ for testing.
 
-Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a generation model $p_\theta(\mathbf{y} | \mathbf{z}, \mathbf{x})$​, and a conditional prior model $p(\mathbf{z}|\mathbf{x})$, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3):
+Given a recognition model <img src="/assets/cvae4hri/q_phi.png" class="inline"/>, a generation model <img src="/assets/cvae4hri/p_theta.png" class="inline"/>, and a conditional prior model <img src="/assets/cvae4hri/p.png" class="inline"/>, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3):
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lcvae.png">
