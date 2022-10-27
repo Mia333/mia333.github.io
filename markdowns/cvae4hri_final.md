@@ -128,11 +128,12 @@ We illustrate our approach on a Franka Emika Panda robot arm interacting with hu
 </p>
 
 <p align="center">
-![](/assets/cvae4hri/q_m2_185001.gif ){:height="50%" width="50%" align="center"}
+<img  width="50%" src="/assets/cvae4hri/q_m2_185001.gif" alt="animated" />
 </p>
 
 <p align="center">
-![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"}
+<img  width="50%" src="/assets/cvae4hri/q_out_191046.gif" alt="animated" />
+<!-- ![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"} -->
 </p>
 
 <p align="center">
