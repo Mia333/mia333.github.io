@@ -53,7 +53,7 @@ To encourage the diversity of the generator, we employ the best of many samples 
     \end{align*}
 $$ -->
 
-According to Jensen's inequality, $ \mathcal{L}_{BMS} $​ leads to a tighter estimator to the log-likelihood
+According to Jensen's inequality, $\mathcal{L}_{BMS}$ leads to a tighter estimator to the log-likelihood
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lbms.png">
@@ -109,7 +109,7 @@ where $\beta$​​ and $\lambda$​​ are hyperparameters.
 
 ## Experimental results
 
-We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1\,ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
+We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1 ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
 
 
 <p align="center">
