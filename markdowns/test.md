@@ -14,9 +14,8 @@ incline math: $\mathbf{s}_{r}^{1:M}$
 
  $\mathbf{s}_{h}^{1:M}$
 
-$\mathbf{x} =  [\mathbf{x}_{r}^{1:t}, \mathbf{x}_{r}^{1:t}]$ 
+<!-- $\mathbf{x} =  [\mathbf{x}_{h}^{1:t}, \mathbf{x}_{r}^{1:t}]$  -->
 
-$ [\mathbf{x}_{h}^{1:t}, \mathbf{x}_{r}^{1:t}]$
 black math:
 
 
