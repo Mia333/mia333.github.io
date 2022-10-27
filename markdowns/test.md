@@ -23,6 +23,5 @@ $$
 
 We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$, 
 
-
 and the positions of the human hand $\mathbf{s}_{h}^{1:M}$, with $M$ time steps. The test data is generated online.
 
