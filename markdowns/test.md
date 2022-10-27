@@ -4,13 +4,9 @@ title: Test for math
 permalink: /publication/test/
 ---
 
-$\mathbf{s}_{r}^{1:M}$
 
-$\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
- math
 
-### Math2
-
+* LSTM-based CVAE as a motion planner
 
 We collect a data set of human-robot interactions for training and validation. Each demonstration consists of the robot end-effector positions in the cartesian space $\mathbf{s}_{r}^{1:M}$, and the positions of the human hand $\mathbf{s}_{h}^{1:M}$, with $M$ time steps. The test data is generated online.
 
@@ -57,7 +53,7 @@ To encourage the diversity of the generator, we employ the best of many samples 
     \end{align*}
 $$ -->
 
-According to Jensen's inequality, $ \mathcal{L}_{MS} \geq  \mathcal{L}_{CVAE}$​ leads to a tighter estimator to the log-likelihood
+According to Jensen's inequality, $ \mathcal{L}_{BMS} $​ leads to a tighter estimator to the log-likelihood
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lbms.png">
@@ -109,3 +105,20 @@ We then rewrite the loss function
 \end{align}
 $$ -->
 where $\beta$​​ and $\lambda$​​ are hyperparameters.
+
+
+## Experimental results
+
+We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1\,ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
+
+
+<p align="center">
+![](/assets/cvae4hri/mia_panda.gif ){:height="50%" width="50%" align="center"}
+![](/assets/cvae4hri/q_m2_185001.gif ){:height="50%" width="50%" align="center"}
+![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"}
+ 
+<em>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</em>
+</p>
+
+
+This work was completed by Jiaojiao Ye as the master thesis in 2019-2020. [The thesis is online](https://github.com/JiaojiaoYe1994/jiaojiaoye.github.com/blob/master/posts/paper/Sequence_model_for_hri.pdf).
