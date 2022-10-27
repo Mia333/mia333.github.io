@@ -12,8 +12,8 @@ We collect a data set of human-robot interactions for training and validation. E
 
 
 To implement an LSTM-based CVAE for HRI, the input of the model is  and the output is the control signal $\mathbf{y} = \ddot{\mathbf{s}}_r^{t+1:t+T}$​, where $t \in [2 \dots M-T]$. $\mathbf{x}^t_h$ and $\mathbf{x}^t_r$​​​, consisting of the position, velocity, and acceleration, are the state of human and robot past trajectory from time step one to the current time step $t$​​​​​​​​ (see the notation in Fig. 1). The long output of the model from time step $t$ to $T$ is only used in the training and validation processes, resulting in more accurate predictions. However, we only use $\ddot{s}_r^{t+1}$ for testing.
-
-Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a generation model $p_\theta(\mathbf{y} | \mathbf{z}, \mathbf{x})$​, and a conditional prior model $p(\mathbf{z}|\mathbf{x})$, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3):
+<!-- 
+Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a generation model $p_\theta(\mathbf{y} | \mathbf{z}, \mathbf{x})$​, and a conditional prior model $p(\mathbf{z}|\mathbf{x})$, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3): -->
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lcvae.png">
@@ -51,7 +51,7 @@ To encourage the diversity of the generator, we employ the best of many samples 
     \end{align*}
 $$ -->
 
-According to Jensen's inequality, $\mathcal{L}_{MS} \geq \mathcal{L}_{BMS}$ leads to a tighter estimator to the log-likelihood
+According to Jensen's inequality, $\mathcal{L}_{BMS}$ leads to a tighter estimator to the log-likelihood
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lbms.png">
