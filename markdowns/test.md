@@ -36,6 +36,8 @@ where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able 
 
 Demonstration collection on a real robot is inefficient and time-consuming. Therefore, we use mixup [[2]](#2) for data augmentation. In the original mixup method, discrete datapoints are augmented. Given demonstration $a$ and $b$, we adapt this technique to our specific sequential interaction dataset for both human and robot trajectories, 
 <!-- $\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$,  -->
+<p align="center">
 <img src="/assets/cvae4hri/eq_mixup.png">
-
+</p>
+ 
 where $\lambda$ is randomly sampled. 
