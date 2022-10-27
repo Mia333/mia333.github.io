@@ -6,6 +6,8 @@ permalink: /publication/test/
 
 $\mathbf{s}_{r}^{1:M}$
 
+$\mathbf{s}_{aug}^{0:T} = \lambda \mathbf{s}_{a}^{0:T} + (1-\lambda) \mathbf{s}_{b}^{0:T}$
+ math
 
 ### Math2
 
