@@ -1,7 +1,7 @@
 ---
 layout: info
 title: Conditional VAE for Human-Robot Interaction
-permalink: /publication/cvae_final/
+permalink: /publication/cvae4hri_final/
 ---
 
 author: Jiaojiao Ye
