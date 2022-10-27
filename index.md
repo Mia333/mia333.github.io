@@ -32,10 +32,10 @@ layout: home
  -->
 I am currently a senior AI researcher in Intelligent Computing research center at [Zhejiang Lab](https://en.zhejianglab.com/), focusing on Reinforcement Learning and AutoML.
 
-I obtained master in Electronic and Information Technology at [Technical University of Munich](https://www.tum.de/en/), Bachelor in [Automation](http://cse.zju.edu.cn/english/) at Zhejiang University. During my undergraduate, I was fortunate to conduct thesis research under supervision of [Prof. Dibo Hou](https://person.zju.edu.cn/en/houdb), [Prof. Dr. Patrick van der Smagt](https://scholar.google.de/citations?user=5ybzvbsAAAAJ&hl=en), [Prof. Sami Haddadin](https://www.mirmi.tum.de/en/rsi/team/haddadin-sami/), [Dr. Alexandros Paraschos](https://scholar.google.com/citations?user=aCz_QHUAAAAJ), and [Dr. Nutan Chen](https://scholar.google.com/citations?user=HH3n9scAAAAJ&hl=de).
+I obtained master in Electronic and Information Technology at [Technical University of Munich](https://www.tum.de/en/), Bachelor in [Automation](http://cse.zju.edu.cn/english/) at Zhejiang University. During my undergraduate, I was fortunate to conduct thesis research under supervision of [Prof. Dibo Hou](https://person.zju.edu.cn/en/houdb), [Prof. Dr. Patrick van der Smagt](https://scholar.google.de/citations?user=5ybzvbsAAAAJ&hl=en), [Prof. Sami Haddadin](https://en.wikipedia.org/wiki/Sami_Haddadin), [Dr. Alexandros Paraschos](https://scholar.google.com/citations?user=aCz_QHUAAAAJ), and [Dr. Nutan Chen](https://scholar.google.com/citations?user=HH3n9scAAAAJ&hl=de).
 
 
-## research interest
+## Research interest
 
 My research wish is to build a robust, fully automated system with learning-based methods in the challenging and uncertain real-world. Particularly, I am keen to conduct research in the interdisciplinary area of Robotics and Artificial Intelligence, with passion for precise robotic perception and decision-making in a complicated and non-stationary environment. My interests in autonomous system deepened during my Internship in Bosch, about vision-based Perception with GAN technique in Stuttgart, for L5 autonomous driving Athena, a joint project of Robert Bosch GmbH and Daimler.
 
