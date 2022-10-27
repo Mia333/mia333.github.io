@@ -13,15 +13,13 @@ We collect a data set of human-robot interactions for training and validation. E
 
 To implement an LSTM-based CVAE for HRI, the input of the model is  and the output is the control signal $\mathbf{y} = \ddot{\mathbf{s}}_r^{t+1:t+T}$​, where $t \in [2 \dots M-T]$. $\mathbf{x}^t_h$ and $\mathbf{x}^t_r$​​​, consisting of the position, velocity, and acceleration, are the state of human and robot past trajectory from time step one to the current time step $t$​​​​​​​​ (see the notation in Fig. 1). The long output of the model from time step $t$ to $T$ is only used in the training and validation processes, resulting in more accurate predictions. However, we only use $\ddot{s}_r^{t+1}$ for testing.
 
-
 Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a generation model $p_\theta(\mathbf{y} | \mathbf{z}, \mathbf{x})$​, and a conditional prior model $p(\mathbf{z}|\mathbf{x})$, we approximates the evidence lower bound (ELBO) of the CVAE [[3]](#3):
-
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lcvae.png">
 </p>
 
-where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able to model multiple modes in conditional distribution of the output $\mathbf{y}$.
+where $N$ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able to model multiple modes in conditional distribution of the output $\mathbf{y}$.
 
 <p align="center">
 <img src="/assets/cvae4hri/lstm-cvae_framework.png">
@@ -53,7 +51,7 @@ To encourage the diversity of the generator, we employ the best of many samples 
     \end{align*}
 $$ -->
 
-According to Jensen's inequality, $\mathcal{L}_{BMS}$ leads to a tighter estimator to the log-likelihood
+According to Jensen's inequality, $\mathcal{L}_{MS} \geq \mathcal{L}_{BMS}$ leads to a tighter estimator to the log-likelihood
 
 <p align="center">
 <img src="/assets/cvae4hri/eq_Lbms.png">
@@ -109,14 +107,15 @@ where $\beta$​​ and $\lambda$​​ are hyperparameters.
 
 ## Experimental results
 
-We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1 ms$​​.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
+We illustrate our approach on a Franka Emika Panda robot arm interacting with humans. Full observations are provided by the OptiTrack motion capture system and sensors on the robot. For the training and validation datasets, the robot movements are led by a person. The goal of the robot is to reach the human hand, which is critical for e.g., handover. During testing, the robot trajectory is replanned every $1 ms$.  Our model learns the correlation between humans and robots, discovers the intention of human movement, and generates the robot control signal correspondingly (see Fig. 2). 
 
 
-<p align="center">
+
 ![](/assets/cvae4hri/mia_panda.gif ){:height="50%" width="50%" align="center"}
 ![](/assets/cvae4hri/q_m2_185001.gif ){:height="50%" width="50%" align="center"}
 ![](/assets/cvae4hri/q_out_191046.gif ){:height="50%" width="50%" align="center"}
- 
+
+<p align="center">
 <em>Figure 2. Robot trajectory prediction based on human movements. The upper two subfigures show the generated diverse trajectories for the robot based on similar human hand trajectories.  In the lower subfigure, when human performs totally different from the demonstrations, the robot still reachs the goal.</em>
 </p>
 
