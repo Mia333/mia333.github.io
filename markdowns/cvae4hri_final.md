@@ -123,7 +123,8 @@ We illustrate our approach on a Franka Emika Panda robot arm interacting with hu
 
 
 <p align="center">
-![](/assets/cvae4hri/mia_panda.gif ){:height="50%" width="50%" align="center"}
+<img  width="50%" src="/assets/cvae4hri/mia_panda.gif" alt="animated" />
+<!-- ![](/assets/cvae4hri/mia_panda.gif ){:height="50%" width="50%" align="center"} -->
 </p>
 
 <p align="center">
