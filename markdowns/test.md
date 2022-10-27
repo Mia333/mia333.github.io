@@ -35,7 +35,7 @@ Given a recognition model $q_\phi (\mathbf{z} | \mathbf{x}, \mathbf{y})$​, a g
 $$ -->
 where $N$​ is the number of samples. Given $\mathbf{x}$, $\mathbf{z}$ is able to model multiple modes in conditional distribution of the output $\mathbf{y}$.
 
-<center>
+<p align="center">
 <img src="/assets/cvae4hri/lstm-cvae_framework.png">
 <em>Figure 1. The proposed model.</em>
-</center>
+</p>
